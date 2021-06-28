@@ -1,0 +1,15 @@
+img{
+width:350px;
+height: 250px;
+display: inline;
+margin-left: auto;
+margin-right: auto;
+}
+
+body{
+    text-align: center
+}
+
+html{
+    scroll-behavior: smooth;
+}

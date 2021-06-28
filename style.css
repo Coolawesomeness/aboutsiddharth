@@ -1,7 +1,7 @@
 body {
     background-image: linear-gradient(to bottom right, white, green);
     background-repeat: no repeat;
-   
+
     color: white;
 }
 
@@ -17,49 +17,74 @@ h1 {
 }
 
 img {
-    border-radius: 50%;
     display: block;
-    margin-left: auto;  
+    margin-left: auto;
+    margin-right: auto;
 }
 
 
-#name{
+#name {
     font-family: 'Source Sans Pro', cursive;
     color: white;
-    
+
 }
 
 .menu {
-    list-style-type: none;   
+    list-style-type: none;
     font-family: cursive;
     float: right;
     top: 10px;
     right: 30px;
     cursor: pointer;
-    color: black;  
+    color: black;
 }
 
 ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
-  background-color: #333;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
 }
 
 li {
-  float: left;
+    float: left;
 }
 
 li a {
-  display: block;
-  color: white;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
 }
 
 li a:hover {
-  background-color: #111;
+    background-color: #111;
 }
 
+.button {
+
+    text-align: center;
+    text-decoration: none;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #111;
+    border: none;
+    color: white;
+    padding: 10px 30px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.bookreview {
+    text-align: center;
+    margin: auto;
+    width: 50%;
+    padding: 10px;
+}
+
+html {
+    scroll-behavior: smooth;
+}
